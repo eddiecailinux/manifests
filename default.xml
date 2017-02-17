@@ -11,6 +11,7 @@
 
   <project remote="yocto" revision="morty" name="poky" path="src/poky"/>
   <project remote="eddie" revision="morty" name="meta-rockchip" path="src/meta-rockchip"/>
+  <project remote="eddie" revision="master" name="u-boot" path="src/u-boot"/>
   <project remote="oe" revision="morty" name="meta-openembedded" path="src/meta-openembedded"/>
   <project remote="rockchip" revision="master" name="rkbin" path="rkbin"/>
   <project remote="eddie" revision="morty" name="build" path="build">
