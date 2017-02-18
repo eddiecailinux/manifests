@@ -2,12 +2,12 @@
   <manifest>
   <default sync-j="2" />
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/rockchip-linux" name="rockchip"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/rockchip-linux" name="rockchip"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="git://github.com/eddiecailinux"  name="eddie"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="https://github.com/eddiecailinux"  name="eddie"/>
 
   <project remote="yocto" revision="morty" name="poky" path="src/poky"/>
   <project remote="eddie" revision="morty" name="meta-rockchip" path="src/meta-rockchip"/>
